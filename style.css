@@ -1,0 +1,201 @@
+/* Navbar css starts from here */
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Maven+Pro:wght@600&family=Yanone+Kaffeesatz&display=swap'); 
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-top: 70px;
+    font-weight: 700;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 30px;
+    color: black;
+}
+/* First section css starts from here */
+.first-heading{
+    margin-top: 0px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom:100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+   
+}
+.half-width img{
+    height: 80%;
+    width:80%;
+    margin-top: 10%;
+    
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    margin-top: 100px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+h2.second {
+    font-size: 2em;
+    font-family: zillaslab,palatino,"Palatino Linotype",serif;
+}
+.first-para{
+    font-family: 'Exo 2', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+.link-button{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+   text-align: center;
+    padding: 10px 25px;
+    background-color: #02c1fc;
+    color: aliceblue;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+.link-button:hover{
+    transform:scale(1.5);
+    transition: transform 5s ease 1s;
+}
+hr{
+    margin-bottom: 60px;
+    width: 1000px;
+}
+/* Star style */
+.fa-star.filled,.fa-star-half-alt.filled{
+    color: #FFC014;
+    font-size: 10px;
+}
+.space{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+/* product section css starts from here */
+.product{
+    border-radius: 5px;
+   width: 300px;
+   padding: 20px;
+   box-shadow: 0px 1px 20px 1px rgb(202 201 201);
+  
+}
+/* Extra style */
+/* .product:hover{ */
+    
+    transform:rotate(360deg);
+    transition: transform 5s ease 1s,height 10s;   
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-price{
+    font-weight: 400;
+}
+.container{
+    display: grid;    
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 20px 160px 20px 160px ;
+    
+}
+span.space{
+    padding-left: 10px;
+}
+.curse-author{
+    font-weight: 700;
+}
+/* Second heading starts here */
+.second{
+    text-align: center;
+}
+/* Second heading ends here */
+.second-button{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 1140px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    color: #02c1fc;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Footer all css starts here */
+footer{
+    background-color: #02c1fc;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+/* Footer icon positioning */
+.fab.fa-facebook{
+   color: antiquewhite;
+    padding-right: 30px;
+}
+.fab.fa-youtube{
+    padding-right: 30px;
+    color: antiquewhite;
+}
+.fab.fa-github{
+    color:antiquewhite;
+    padding-right: 30px;
+}
+.fab.fa-linkedin{
+    color:antiquewhite;
+   
+}
+
+/* Media quearies */
+  /* mobile view css.........    */ 
+  @media only screen and (max-width:688px){
+     {
+         display: none;
+        }
+      main{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+     footer{
+        max-width: 100%;
+        margin: 10%;
+
+     }
+     /* .container{ */
+         grid-template-columns:repeat(1, 1fr) ;
+        max-width: 100%;
+        margin: 10%;
+        justify-content: center;
+
+     }
+     .product{
+        /* max-width: 100%; */
+        margin-right: 10%;
+    
+     }
+     /* .second-button{ */
+         display: flex;
+     }
+
+
+  }
+
+
+
+
+ /* Tablet view css............ */
+   
